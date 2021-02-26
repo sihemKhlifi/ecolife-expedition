@@ -30,7 +30,7 @@ spring:
       enabled: false
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:postgresql://192.168.56.2:5432/ecolife?stringtype=unspecified
+    url: jdbc:postgresql://127.0.0.1:5432/ecolife?stringtype=unspecified
     username: ecolife
     password: ecolife
     #url: jdbc:oracle:thin:@//localhost:49161/xe
@@ -129,9 +129,8 @@ jhipster:
   audit-events:
     retention-period: 30 # Number of days before audit events are deleted.
 
-
-ecolife: 
-  mediaStorageLocation: 
+ecolife:
+  mediaStorageLocation:
     video: ./video
     audio: ./audio
     image: ./image
@@ -143,6 +142,3 @@ ecolife:
 
 # application:
 
-
-      
-  
